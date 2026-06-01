@@ -1,0 +1,100 @@
+.education-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 24px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.edu-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.2);
+  border: 2px solid var(--accent-primary);
+}
+
+.edu-icon {
+  color: var(--accent-primary);
+}
+
+.edu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.edu-degree {
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.edu-university {
+  font-size: 1.25rem;
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.edu-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.edu-gpa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-tertiary);
+  border-radius: 9999px;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.gpa-icon {
+  color: #10b981;
+}
+
+@media (min-width: 768px) {
+  .education-card {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  
+  .edu-icon-wrapper {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+  
+  .edu-meta {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .edu-gpa {
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+}
