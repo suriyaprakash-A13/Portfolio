@@ -11,11 +11,6 @@ const highlights = [
     description: 'Expertise in LangChain and LangGraph for building autonomous multi-agent workflows and RAG systems.'
   },
   {
-    icon: <Zap size={24} />,
-    title: 'Full-Stack Engineering',
-    description: 'Proficient in Python, FastAPI, and React.js, delivering end-to-end applications from database to UI.'
-  },
-  {
     icon: <Target size={24} />,
     title: 'Data-Driven Impact',
     description: 'Focused on measurable outcomes, utilizing statistical testing and analytics to drive business intelligence.'

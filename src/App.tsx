@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <Navbar />
-      
+
       <main>
         <Hero />
         <About />
@@ -25,7 +25,7 @@ function App() {
         <Achievements />
         <Contact />
       </main>
-      
+
       <Footer />
     </div>
   );

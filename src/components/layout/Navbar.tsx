@@ -26,7 +26,7 @@ export const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <motion.nav 
+    <motion.nav
       className={`navbar ${isScrolled ? 'scrolled glass' : ''}`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
         {/* Mobile Toggle */}
         <div className="mobile-toggle">
           <ThemeToggle />
-          <button 
+          <button
             className="menu-btn"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
@@ -74,8 +74,8 @@ export const Navbar: React.FC = () => {
             <ul className="mobile-nav-links">
               {navItems.map((item) => (
                 <li key={item.name}>
-                  <a 
-                    href={item.href} 
+                  <a
+                    href={item.href}
                     className="mobile-nav-link"
                     onClick={() => setMobileMenuOpen(false)}
                   >
