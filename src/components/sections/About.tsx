@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Target, Zap, BrainCircuit } from 'lucide-react';
+import { Target, BrainCircuit } from 'lucide-react';
 import { SectionHeading } from '../ui/SectionHeading';
 import './About.css';
 
